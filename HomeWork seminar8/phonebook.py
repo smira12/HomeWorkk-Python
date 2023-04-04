@@ -54,7 +54,6 @@ def safe_file(file_contacts):
         f.write(new_contact(file_contacts))
 
 
-
 def new_contact(file_contacts):
     last_name = input('Введите Фамилию: ')
     first_name = input('Введите Имя: ')
